@@ -1,0 +1,32 @@
+{
+    "ticker": "NVDA",
+    "period": "2y",
+    "evaluation_date": "2026-11-24 09:47:45",
+    "test_sessions": 99,
+    "metrics": {
+        "hybrid": {
+            "rmse": 5.84,
+            "mae": 4.46,
+            "mape": 2.25,
+            "directional_accuracy": 45.45
+        },
+        "baseline_price_only": {
+            "rmse": 6.87,
+            "mae": 5.24,
+            "mape": 2.68,
+            "directional_accuracy": 45.45
+        },
+        "sentiment_lift": {
+            "rmse_reduction_pct": 14.99,
+            "directional_accuracy_gain_pct": 0.0
+        },
+        "trading_strategy": {
+            "strategy_return_pct": -23.75,
+            "benchmark_return_pct": -35.5,
+            "sharpe_ratio": -1.89,
+            "max_drawdown_pct": 26.26,
+            "trade_win_rate_pct": 44.74,
+            "num_trades": 38
+        }
+    }
+}

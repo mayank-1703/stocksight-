@@ -1,0 +1,32 @@
+{
+    "ticker": "AAPL",
+    "period": "2y",
+    "evaluation_date": "2026-11-24 09:47:20",
+    "test_sessions": 99,
+    "metrics": {
+        "hybrid": {
+            "rmse": 5.31,
+            "mae": 3.9,
+            "mape": 1.19,
+            "directional_accuracy": 49.49
+        },
+        "baseline_price_only": {
+            "rmse": 5.23,
+            "mae": 3.81,
+            "mape": 1.16,
+            "directional_accuracy": 43.43
+        },
+        "sentiment_lift": {
+            "rmse_reduction_pct": -1.53,
+            "directional_accuracy_gain_pct": 6.06
+        },
+        "trading_strategy": {
+            "strategy_return_pct": 9.57,
+            "benchmark_return_pct": 11.17,
+            "sharpe_ratio": 1.49,
+            "max_drawdown_pct": 4.59,
+            "trade_win_rate_pct": 54.35,
+            "num_trades": 46
+        }
+    }
+}
